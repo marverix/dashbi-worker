@@ -1,0 +1,24 @@
+{
+  "name": "dashbi-worker",
+  "version": "0.1.0",
+  "description": "Dashbi Worker class for data providers",
+  "main": "Worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "npx jsdoc -c jsdoc.json",
+    "lint": "npx eslint Worker.js"
+  },
+  "keywords": [
+    "dashbi",
+    "dashbi-worker"
+  ],
+  "author": "Marek Sierociński <mareksierocinski@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "finka": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "jsdoc": "^3.6.3"
+  }
+}

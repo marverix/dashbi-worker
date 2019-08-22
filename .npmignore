@@ -1,0 +1,6 @@
+/.idea
+/.editorconfig
+/.eslintrc
+/jsdoc.json
+*.tgz
+/docs
