@@ -1,6 +1,6 @@
 {
   "name": "dashbi-worker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Dashbi Worker class for data providers",
   "main": "Worker.js",
   "scripts": {
