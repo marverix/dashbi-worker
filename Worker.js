@@ -110,11 +110,16 @@ class Worker {
 
   /**
    * Store state
-   * @param {string} key
-   * @param {*} value
+   * @param {string|Object} key
+   * @param {*} [value]
    */
   storeState (key, value) {
-    this.state[key] = value;
+    if (typeof key === 'string') {
+      this.state[key] = value;
+    } else {
+      Object.deepAssign(this.state, key);
+    }
+
     this.afterStoreStare();
   }
 
